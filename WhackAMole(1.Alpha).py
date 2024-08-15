@@ -5,7 +5,6 @@
 #No Qlabel Final Score, instead a txt file to keep record.
 
 
-
 #Importing the necessary and needed PyQt5 assets.
 import sys
 import random
@@ -139,7 +138,7 @@ class WhackAMole(QWidget):
     #the end game function
     def endgame(self):
         self.disable_buttons()
-        final_score_label = QLabel(f'Game Over! Final Score: {self.score}')
+        final_score_label = QLabel(f'Times up! Your Score: {self.score}')
         final_score_label.setAlignment(Qt.AlignCenter)
         final_score_label.setStyleSheet("""
             QLabel {
@@ -161,6 +160,12 @@ class WhackAMole(QWidget):
         for row in range(3):
             for col in range(3):
                 self.buttons[row][col].setEnabled(True)
+#Ends the code.
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    game = WhackAMole()
+    sys.exit(app.exec_())
+
 #Ends the code.
 if __name__ == '__main__':
     app = QApplication(sys.argv)
