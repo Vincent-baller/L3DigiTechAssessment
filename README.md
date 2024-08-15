@@ -1,3 +1,4 @@
-To run the code, copy and paste it into a program that runs python (.py) code e.g Visual Studio, run it and select a time between 15 and 60 seconds.
-It's barebones. However it is the beta, and the first stepping stone for this code.
-More will be added in the future.
+1.ALPHA README: To run the code, put it into a program that can run python, make sure you have PyQt5 installed onto your device, which you can easily do by writing in your console, from the program or your computer "pip install PyQt5" and "pip install PyQt5 tools" and after it has installed you will be able to run the window. Select a time between 15 and 60 seconds then have fun! click the buttons with a little mole (bear) on it and you will get more points! try challenge yourself, beat previous scores. Final Version will have more features that will add to challenge and give some quality of life.
+
+
+(0.1 Beta Read.me): To run the code, copy and paste it into a program that runs python (.py) code e.g Visual Studio, run it and select a time between 15 and 60 seconds. It's barebones. However it is the beta, and the first stepping stone for this code. More will be added in the future.
